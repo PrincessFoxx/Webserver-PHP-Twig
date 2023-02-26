@@ -1,0 +1,29 @@
+{
+  "name": "project/name",
+  "description": "Project Description",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Author Name",
+      "email": "Author@email.here"
+    }
+  ],
+  "require": {
+    "nyholm/psr7": "^1.5",
+    "nyholm/psr7-server": "^1.0",
+    "slim/slim": "^4",
+      "php-di/php-di": "^6.4",
+      "slim/twig-view": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Project\\Name\\": "src/"
+    }
+  },
+  "config": {
+    "process-timeout": 0
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t public/"
+  }
+}
