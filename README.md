@@ -48,6 +48,7 @@ return function (App $app) {
 ```
 
 Change the namespace of the `HomeAction` class on line 3 of `src/Action/HomeAction.php` to your own namespace.
+Also change (or remove) the `use` on line 8.
 
 ```php
 <?php
